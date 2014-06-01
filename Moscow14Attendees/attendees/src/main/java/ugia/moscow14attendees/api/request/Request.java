@@ -48,7 +48,7 @@ public class Request implements Runnable {
         return this;
     }
 
-    public Request callbacksTo(RequestCallback callback) {
+    public Request callsBackTo(RequestCallback callback) {
         this.callback = callback;
         return this;
     }
