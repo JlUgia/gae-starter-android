@@ -91,7 +91,7 @@ public class MainActivity extends Activity
 
     private void setupGson() {
         GsonBuilder gb = new GsonBuilder();
-        gb.setDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
+        gb.setDateFormat("yyyy-MM-dd'T'HH:mm:ss.SSSSSS'Z'");
         mGson = gb.create();
     }
 
